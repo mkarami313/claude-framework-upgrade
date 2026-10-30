@@ -1,0 +1,21 @@
+{
+  "name": "claude-framework-upgrade",
+  "owner": {
+    "name": "mkarami313"
+  },
+  "metadata": {
+    "description": "Upgrade frameworks and runtimes safely (React, Next.js, Angular, .NET, Django, Rails…): official guides instead of memory, baseline, codemods, one green commit per step, no silenced errors, version detection script.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "framework-upgrade",
+      "description": "Upgrade frameworks and runtimes safely (React, Next.js, Angular, .NET, Django, Rails…): official guides instead of memory, baseline, codemods, one green commit per step, no silenced errors, version detection script.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/framework-upgrade"
+      ]
+    }
+  ]
+}
